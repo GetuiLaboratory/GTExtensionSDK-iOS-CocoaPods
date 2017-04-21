@@ -1,5 +1,3 @@
-
-
 Pod::Spec.new do |s|
   # 名称，pod search 搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
   s.name         = "GTExtensionSDK"
@@ -17,7 +15,7 @@ Pod::Spec.new do |s|
   # 项目的地址
   s.source       = { :git => "https://github.com/GetuiLaboratory/GTExtensionSDK-iOS-CocoaPods.git", :tag => s.version }
 
-  # 支持的平台及版本
+  # 支持的平台及版本(iOS、macOS、watchOS等)
   s.platform     = :ios, "10.0"
   # iOS支持的pod最低版本 / iOS对应的版本
   s.ios.deployment_target = "10.0"

@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   # 名称，pod search 搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
   s.name         = "GTExtensionSDK"
   # 版本号/库原代码的版本
-  s.version      = "1.3.0"
+  s.version      = "1.3.1"
   # 简介
   s.summary      = "个推:iOS APNs Extension SDK"
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source_files  = 'GeTuiExtSdk.h'
 
   # 使用了第三方静态库
-  s.ios.vendored_library = 'libGtExtensionSdk-1.3.0.a'
+  s.ios.vendored_library = 'libGtExtensionSdk-1.3.1.a'
   #s.ios.vendored_libraries = ''
   #s.ios.vendored_frameworks = ''
 

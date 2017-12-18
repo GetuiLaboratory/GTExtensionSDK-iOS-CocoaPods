@@ -5,7 +5,7 @@
 //  Created by gexin on 16/9/14.
 //  Copyright © 2016年 getui. All rights reserved.
 //
-//  GTExtensionSDK-Version:2.0.0
+//  GTExtensionSDK-Version:2.1.0
 
 #import <Foundation/Foundation.h>
 #import <UserNotifications/UserNotifications.h>
@@ -13,7 +13,7 @@
 @interface GeTuiExtSdk : NSObject
 
 /**
- *  统计APNs到达情况
+ *  只统计APNs到达情况，不下载多媒体资源
  */
 + (void)handelNotificationServiceRequest:(UNNotificationRequest *)request withComplete:(void (^)(void))completeBlock __attribute((deprecated("建议使用多媒体接口")));
 /**

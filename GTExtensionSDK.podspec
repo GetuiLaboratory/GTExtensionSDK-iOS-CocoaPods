@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   # 名称，pod search 搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
   s.name         = "GTExtensionSDK"
   # 版本号/库原代码的版本
-  s.version      = "2.2.3"
+  s.version      = "2.2.4"
   # 简介
   s.summary      = "个推:iOS APNs Extension SDK"
 

@@ -18,11 +18,6 @@
 + (void)setVoicePlayClass:(id)aClass __attribute((deprecated("该接口已经废弃")));
 
 /**
- *  只统计APNs到达情况，不下载多媒体资源
- */
-+ (void)handelNotificationServiceRequest:(UNNotificationRequest *)request withComplete:(void (^)(void))completeBlock __attribute((deprecated("建议使用多媒体接口")));
-
-/**
  *  统计APNs到达情况和多媒体推送支持, 建议使用该接口
  */
 + (void)handelNotificationServiceRequest:(UNNotificationRequest *)request withAttachmentsComplete:(void (^)(NSArray *attachments, NSArray *errors))completeBlock;

@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   # 名称，pod search 搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
   s.name         = "GTExtensionSDK"
   # 版本号/库原代码的版本
-  s.version      = "2.2.4"
+  s.version      = "2.5.2"
   # 简介
   s.summary      = "个推:iOS APNs Extension SDK"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
 
   # 使用了第三方静态库
-  s.ios.vendored_frameworks = 'GTExtensionSDK.framework'
+  s.ios.vendored_frameworks = 'framework/GTExtensionSDK.framework'
 
   # 所需的framework，多个用逗号隔开
   #s.ios.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','Security'

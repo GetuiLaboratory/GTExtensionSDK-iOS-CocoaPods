@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
 
   # 使用了第三方静态库
-  s.ios.vendored_frameworks = 'framework/GTExtensionSDK.framework'
+  s.ios.vendored_frameworks = 'GTExtensionSDK.framework'
 
   # 所需的framework，多个用逗号隔开
   #s.ios.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','Security'

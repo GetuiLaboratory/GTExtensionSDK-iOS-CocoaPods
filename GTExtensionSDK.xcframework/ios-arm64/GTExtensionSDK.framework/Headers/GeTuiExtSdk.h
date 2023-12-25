@@ -5,7 +5,7 @@
 //  Created by gexin on 16/9/14.
 //  Copyright © 2016年 getui. All rights reserved.
 //
-//  GTExtensionSDK-Version: 3.0.1
+//  GTExtensionSDK-Version: 3.0.2
 
 #import <Foundation/Foundation.h>
 #import <UserNotifications/UserNotifications.h>

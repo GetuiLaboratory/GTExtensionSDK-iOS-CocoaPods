@@ -2,5 +2,4 @@ framework module GTExtensionSDK {
   umbrella header "GeTuiExtSdk.h"
   export *
   module * { export * }
-  link "resolv"
 }
